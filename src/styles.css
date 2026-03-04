@@ -4,3 +4,10 @@
   --color-secondary-100: #E2E2D5;
   --color-secondary-200: #888883;
 }
+.card {
+  @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+}
+
+.badge { 
+  @apply absolute top-0 ml-2 mt-2 p-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+}

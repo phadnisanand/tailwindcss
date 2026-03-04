@@ -5,7 +5,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="font-body text-newfont font-mono">
+<body class="text-gray-600 font-body">
 
   <div>
     <div>
@@ -36,15 +36,9 @@
     </div>
   
     <main class="px-16 py-6">
-      <div class="flex justify-end">
+      <div class="flex justify-center md:justify-end">
         <a href="#" class="text-primary">Log in</a>
         <a href="#" class="text-primary ml-2">Sign up</a>
-      </div>
-      
-      <div class="flex justify-center items-end">
-        <div class="bg-red-500 h-4 w-6"></div>
-        <div class="bg-blue-500 h-8 w-6"></div>
-        <div class="bg-green-500 h-12 w-6"></div>
       </div>
 
       <header>
@@ -57,16 +51,19 @@
   
         <div class="mt-8">
           <!-- cards go here -->
-          <div> 
-            <img src="img/stew.jpg" alt="stew">
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
+          <div class="card"> 
+            <img src="img/card-top.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>25 mins</span>
             </div>
           </div>
         </div>
 
-        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200 text-6xl text-bold">Most Popular</h4>
+        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
 
         <div class="mt-8">
           <!-- cards go here -->
@@ -75,74 +72,9 @@
 
       <div class="mt-12 flex justify-center">
         <div class="bg-secondary-100 text-secondary-200">Load more</div>
-      </div>   
-	 <h2 class="pb-2 mt-12 border-b border-gray-200">
-	  Section Title
-	</h2>
+      </div>    
     </main>
-	<p class="text-sm ...">The quick brown fox ...</p>
-<p class="text-base ...">The quick brown fox ...</p>
-<p class="text-lg ...">The quick brown fox ...</p>
-<p class="text-xl ...">The quick brown fox ...</p>
-<p class="text-2xl ...">The quick brown fox ...</p>
-	<div class="bg-red-500 text-white p-4">
-  Test
-</div>
   </div>
-<p class="text-newfont">Hello Anand</p>
-<div class="bg-newfont text-white p-4">
-  Custom Background
-</div>
-<h1 class="text-newfont text-4xl font-bold">
-  Test Color
-</h1>
-<p class="text-green-500 sm:text-grey-300 md:text-red-500">Hello Anand</p>
 
-<div class="flex flex-col md:flex-row gap-4 p-4 mr-2 px-3 py-1  space-x-4">
-	<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white object-cover w-full">
-	  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-	  <div class="px-6 py-4">
-		<div class="font-bold text-xl mb-2 border-gray-500">The Coldest Sunset</div>
-		<p class="text-gray-700 text-base">
-		  <span class="font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-		</p>
-	  </div>
-	  <div class="px-6 pt-4 pb-2">
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-	  </div>
-	</div>
-
-	<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white object-cover w-full">
-	  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-	  <div class="px-6 py-4">
-		<div class="font-bold text-xl mb-2 border-gray-500">The Coldest Sunset</div>
-		<p class="text-gray-700 text-base">
-		  <span class="font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-		</p>
-	  </div>
-	  <div class="px-6 pt-4 pb-2">
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-	  </div>
-	</div>
-
-	<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white object-cover w-full">
-	  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-	  <div class="px-6 py-4">
-		<div class="font-bold text-xl mb-2 border-gray-500">The Coldest Sunset</div>
-		<p class="text-gray-700 text-base">
-		  <span class="font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-		</p>
-	  </div>
-	  <div class="px-6 pt-4 pb-2">
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-		<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-	  </div>
-	</div>
-</div>
 </body>
 </html>
