@@ -281,6 +281,9 @@
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
   }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -320,6 +323,9 @@
   .text-gray-700 {
     color: var(--color-gray-700);
   }
+  .text-green-500 {
+    color: var(--color-green-500);
+  }
   .text-newfont {
     color: var(--color-newfont);
   }
@@ -339,6 +345,11 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .md\:text-red-500 {
+    @media (width >= 48rem) {
+      color: var(--color-red-500);
+    }
   }
 }
 @property --tw-rotate-x {
